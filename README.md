@@ -16,11 +16,10 @@ The goal of the project was to create a CUDA program that would perform the conn
 
 Here is an example of what the program is doing
 Input:   
-![Input image](https://github.com/myssa89/ConnectedComponentsLabeling/blob/master/singleexample/input.png "Input")
+![Input image](./singleexample/input.png "Input")
 Output:   
-![Output image](https://github.com/myssa89/ConnectedComponentsLabeling/blob/master/singleexample/output.png "Output")
+![Output image](./singleexample/output.png "Output")
 
-![blabla](./singleexample/output.png "title")
 
 #### Overview of the repo
 
