@@ -20,6 +20,8 @@ Input:
 Output:   
 ![Output image](https://github.com/myssa89/ConnectedComponentsLabeling/blob/master/singleexample/output.png "Output")
 
+![blabla](./singleexample/output.png "title")
+
 #### Overview of the repo
 
 This repo is composed of the following parts: 
