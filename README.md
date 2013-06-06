@@ -12,6 +12,11 @@ The goal of the project was to create a CUDA program that would perform the conn
 * Check the correctness of the CUDA program.
 * Have all scripts necessary to visualize the results and try the CUDA programs on various input images (namely it takes care of converting all the images to easily readable text files).
 
+#### Example
+
+Here is an example of what the program is doing
+Input: (https://github.com/myssa89/ConnectedComponentsLabeling/blob/master/singleexample/input.png)
+
 #### Overview of the repo
 
 This repo is composed of the following parts: 
@@ -24,7 +29,7 @@ This repo is composed of the following parts:
 
 The algorithm I used in my program is basically the Union-Find algorithm. I simplified the data structure so that it is minimal, without really caring about its efficiency.
 
-#### Getting started quick and dirty
+#### Getting started (quick and dirty)
 
 Here is what I suggest you do if you want to get a good idea of how you can use things:
 * Create (if they do not exist already) 4 directories: **img/**, **results/**, **inputs/**, **outputs/**.
