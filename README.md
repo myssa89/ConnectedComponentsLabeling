@@ -42,6 +42,7 @@ in the file for the usage of this script.
 * **processAll.sh**: automates the whole process, namely, create text file representing the image, runs the algorithm to produce label file, and create the result image from the label file. By default, it runs both versions of the algorithm (4 and 8-connectivity) but you can easily comment the part that you do not need. 
 * **processAll.sh**: runs in batch mode the algorithm on all images (calls **process.sh** basically) contained in the **img/** directory and outputs the images identifying the connected components in the **results/** directory (again, you will need to create this directory before running the script). 
 * **spiral.cpp**: this program can be used to generate a spiral image (this is a tricky case for the algorithm).
+* **Makefile**: a basic Makefile is provided so that the program can be used quickly. You should modify it especially if you just want to perform connected components labeling (turn in -O2 for instance so that it speeds things up ...).
 
 #### Remarks  
 * Requires Python 2.7 or higher with the Image library set up. 
