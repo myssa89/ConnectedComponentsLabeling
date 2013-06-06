@@ -15,11 +15,12 @@ The goal of the project was to create a CUDA program that would perform the conn
 #### Example
 
 Here is an example of what the program is doing
-Input:   
-![Input image](./singleexample/input.png "Input")
-Output:   
-![Output image](./singleexample/output.png "Output")
-
+<div style="float:left; margin: 0px 10px 10px 0px" markdown="1">
+  ![Input image](./singleexample/input.png "Input")
+</div>
+<div style="float:right; margin: 0px 10px 10px 0px" markdown="1">
+  ![Output image](./singleexample/output.png "Output")
+</div>
 
 #### Overview of the repo
 
