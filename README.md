@@ -47,4 +47,4 @@ in the file for the usage of this script.
 #### Remarks  
 * Requires Python 2.7 or higher with the Image library set up. 
 * If there are too many connected components, **colors.py** can go a bit crazy. 
-* When using **createinput.py**, systematically use the -g flag (converts inputs to white and black images). If you have color images (or greyish images), you can adjust the threshold by using the -t flag (by default, the threshold is 128). Look at the shell scripts (**process.sh **for instance) to see exactly how the Python script is called.
+* When using **createinput.py**, systematically use the -g flag (converts inputs to white and black images). If you have color images (or greyish images), you can adjust the threshold by using the -t flag (by default, the threshold is 128). Look at the shell scripts (**process.sh** for instance) to see exactly how the Python script is called.
