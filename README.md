@@ -36,7 +36,7 @@ in the file for the usage of this script. We will give you images already conver
 formatted in the same way as the output of WriteImgToFile. Please refer to the comments 
 in the file for the usage of this script. The shell script that we are giving you, \verb|./processCuda.sh| will call this script for you.
 * helpers.py: this file contains helper functions needed by the two other scripts. 
-* colors.py: this file chooses appropriate colors in the RGB spectrum to be associated with each label in the output of the C++ program. This script is needed for the other scripts. All the credits for this file go to [this site for the implementation](http://www.8bitrobot.com/wp-content/uploads/2011/09/colorgen.txt) and [this thread for some ideas I found useful](http://stackoverflow.com/questions/4296249/how-do-i-convert-a-hex-triplet-to-an-rgb-tuple-and-back)
+* colors.py: this file chooses appropriate colors in the RGB spectrum to be associated with each label in the output of the C++ program. This script is needed for the other scripts. All the credits for this file go to [this site for the implementation](http://www.8bitrobot.com/wp-content/uploads/2011/09/colorgen.txt) and [this thread for some ideas I found useful](http://stackoverflow.com/questions/4296249/how-do-i-convert-a-hex-triplet-to-an-rgb-tuple-and-back).
 * generateInput.sh: create text files representing the images. Does this for all the images in the img/ directory. You need to have created a directory inputs/ (this will be the directory that contain all the input files that you can then feed to the C++ code). 
 * generateOutput.sh: takes all the input text files in the directory inputs/ and produces the text files containing the labels in the directory outputs/ (that you need to create before running the script). 
 * processAll.sh: automates the whole process, namely, create text file representing the image, runs the algorithm to produce label file, and create the result image from the label file. By default, it runs both versions of the algorithm (4 and 8-connectivity) but you can easily comment the part that you do not need. 
@@ -46,4 +46,4 @@ in the file for the usage of this script. The shell script that we are giving yo
 #### Remarks  
 * Requires Python 2.7 or higher with the Image library set up. 
 * If there are too many connected components, colors.py can go a bit crazy. 
-* When using createinput.py, systematically use the -g flag
+* When using createinput.py, systematically use the -g flag (converts inputs to white and black images). If you have color images (or greyish images), you can adjust the threshold by using the -t flag (by default, the threshold is 128). Look at the shell scripts (process.sh for instance) to see exactly how the Python script is called.
