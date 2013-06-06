@@ -15,9 +15,9 @@ The goal of the project was to create a CUDA program that would perform the conn
 #### Example
 
 Here is an example of what the program is doing
-Input: 
+Input:   
 ![Input image](https://github.com/myssa89/ConnectedComponentsLabeling/blob/master/singleexample/input.png "Input")
-Output: 
+Output:   
 ![Output image](https://github.com/myssa89/ConnectedComponentsLabeling/blob/master/singleexample/output.png "Output")
 
 #### Overview of the repo
