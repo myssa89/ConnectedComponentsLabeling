@@ -15,13 +15,8 @@ The goal of the project was to create a CUDA program that would perform the conn
 #### Example
 
 Here is an example of what the program is doing
-<div style="float:left; margin: 0px 10px 10px 0px" markdown="1">
-  ![Input image](./singleexample/input.png "Input")
-</div>
-<div style="float:right; margin: 0px 10px 10px 0px" markdown="1">
-  ![Output image](./singleexample/output.png "Output")
-</div>
-|![Input image](./singleexample/input.png "Input")|![Output image](./singleexample/output.png "Output")|
+
+![Input image](./singleexample/input.png "Input")       ![Output image](./singleexample/output.png "Output")
 
 #### Overview of the repo
 
