@@ -21,6 +21,7 @@ Here is an example of what the program is doing
 <div style="float:right; margin: 0px 10px 10px 0px" markdown="1">
   ![Output image](./singleexample/output.png "Output")
 </div>
+|![Input image](./singleexample/input.png "Input")|![Output image](./singleexample/output.png "Output")|
 
 #### Overview of the repo
 
