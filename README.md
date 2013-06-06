@@ -67,6 +67,7 @@ in the file for the usage of this script.
 * **Makefile**: a basic Makefile is provided so that the program can be used quickly. You should modify it especially if you just want to perform connected components labeling (turn in -O2 for instance so that it speeds things up ...).
 
 #### Remarks  
-* Requires Python 2.7 or higher with the Image library set up. 
+* Project coded using g++ version 4.6, python 2.7 on Ubuntu 12.04.
+* Requires Python 2.7 or higher with the [Image library](http://www.pythonware.com/products/pil/) set up. 
 * If there are too many connected components, **colors.py** can go a bit crazy. 
 * When using **createinput.py**, systematically use the -g flag (converts inputs to white and black images). If you have color images (or greyish images), you can adjust the threshold by using the -t flag (by default, the threshold is 128). Look at the shell scripts (<strong>process.sh</strong> for instance) to see exactly how the Python script is called.
