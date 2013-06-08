@@ -142,11 +142,15 @@ void FindConnectedComponents(const std::vector<uint>& img, std::vector<uint>& re
 }
 
 int main(int argc, char **argv) {
-    std::string infile = "input";
+    std::string infile = "";
     std::string outfile = "output";
     uint connectivity = 4;
     if (argc > 1) {
         infile = argv[1];
+    }
+    else { 
+        std::cout << "You must provide an input file as argument." << std::endl;
+        exit(1);
     }
     if (argc > 2) {
         outfile = argv[2];
