@@ -1,4 +1,4 @@
-**Author:** Sammy El Ghazzal  
+**Author:** Sammy El Ghazzal  test
 **Date of creation:** May 2013  
 **Date of first commit:** June 2013  
 
